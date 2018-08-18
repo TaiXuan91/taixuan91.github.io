@@ -35,7 +35,7 @@ author:
     - name: facebook
       url:
     - name: github
-      url: https://github.com/yizeng/jekyll-theme-simple-texture
+      url: https://github.com/TaiXuan91
     - name: instagram
       url:
     - name: linkedin
@@ -47,7 +47,7 @@ author:
     - name: vk
       url:
 home:
-  section1: <h1>Simple Texutre</h1>
+  section1: <h1>玄之又玄，众妙之门</h1>
   section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
 blog:
