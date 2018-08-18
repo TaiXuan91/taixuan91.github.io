@@ -1,39 +1,30 @@
 ---
-layout: null
+layout: blog
 ---
+<article class="unit-article layout-page">
+    <div class="unit-inner unit-article-inner">
+        <div class="content">
+            <header>
+                <div class="unit-head">
+                    <div class="unit-inner unit-head-inner">
+                        <h1 class="entry-title">{{ page.header }}</h1>
+                    </div>
+                </div>
+            </header>
 
-<html>
-  <head>
-      
-  {% include head.html %}
+            <div class="bd article-content">
+                <div class="entry-content">
+                    {{ content }}
+                </div>
+            </div>
 
-  {% if site.google-analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
-
-  {% if page.url == "/404.html" %}
-  <meta http-equiv="refresh" content="10; url={{ site.baseurl }}">
-  {% endif %}
-
-  </head>
-  
-  {% include header.html %}
-
-<header class="post-header">
-	<center><div class="contact-title">{{ page.title }}</div>
-		<div class="contact-subtitle"><p>{{ page.subtitle }}</p></div></center>
-</header>
-
-<div class="wrapper">
-	<div class="post-content">
-		{{ content }}
-	</div>
-</div>
-
-<footer>
-
-{% include foot.html %}
-{% include footer.html %}
-
-</footer>
-</html>
+            <footer class="unit-foot">
+                <div class="unit-inner unit-foot-inner">
+                    <p>
+                        <a class="internal gotop" href="#page">{{ site.data.i18n[site.lang].back_to_top }}</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+</article>
