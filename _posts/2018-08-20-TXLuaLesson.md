@@ -10,4 +10,4 @@ redirect_from:
 
 # TXLuaLesson
 
-[TXLuaLesson](../../../../TXLuaLesson/html/_index.html)
+[TXLuaLesson](https://taixuan91.github.io/TXLuaLesson/html/)
