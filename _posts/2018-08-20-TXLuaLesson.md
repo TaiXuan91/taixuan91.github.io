@@ -10,4 +10,4 @@ redirect_from:
 
 # TXLuaLesson
 
-[TXLuaLesson](../../../../../myBooks/TXLuaLesson/html/_index.html)
+[TXLuaLesson](../../../../myBooks/TXLuaLesson/html/_index.html)
