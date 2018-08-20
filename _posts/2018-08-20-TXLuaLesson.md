@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "A quick demo of Simple Texture theme's code highlighting features"
-description: "A quick demo of Simple Texture theme's code highlighting features"
+title: "TXLuaLesson"
+description: "TXLuaLesson"
 categories: [book]
 tags: [book,lua]
 redirect_from:
